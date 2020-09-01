@@ -19,4 +19,4 @@ if __name__ == "__main__":
     C = len([word for word in A_list if len(word) > 6])
     print("C: Long words", C)
     lix_ = (A/B) + ((C * 100)/A)
-    print(lix_)
+    print("Lix: ", lix_)
