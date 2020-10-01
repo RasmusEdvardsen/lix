@@ -2,11 +2,11 @@ import sys
 import re
 
 if __name__ == "__main__":
-    if (len(sys.argv) != 2 is str):
+    if (len(sys.argv) != 2):
         sys.exit(0)
     file_name = sys.argv[1]
 
-    reader = open(file_name)
+    reader = open(file_name, encoding='utf8')
     text = reader.read()    
     reader.close()
 
